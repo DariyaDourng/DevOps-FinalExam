@@ -5,7 +5,7 @@ pipeline {
         stage('Fetch from GitHub') { //build steps
             steps {
                 echo 'Fetching for GitHub'
-                git branch: 'main' , url: 'https://github.com/DariyaDourng/devops_laravel.git'
+                git branch: 'ex4' , url: 'https://github.com/DariyaDourng/DevOps-FinalExam.git'
             }
         }
         stage('Composer install') { 
